@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryng.Extensions.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryng.Extensions", "src\Stryng.Extensions\Stryng.Extensions.csproj", "{813A1E8A-A128-FD10-8A7A-BEB8887CE1E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C461F9D2-6F3B-4823-BBF3-957D873EA14D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{8AFCFED8-9A00-4917-A51A-16C2A5164FBF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5120BAB9-3A08-5EF1-0A57-D6B98E900C9C} = {507347BC-40F4-44EF-BEEB-A13ED8769E1F}
 		{813A1E8A-A128-FD10-8A7A-BEB8887CE1E2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8AFCFED8-9A00-4917-A51A-16C2A5164FBF} = {C461F9D2-6F3B-4823-BBF3-957D873EA14D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E69BB66-DCC4-4538-AC47-4B461193A2B0}
